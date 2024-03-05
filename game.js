@@ -11,6 +11,10 @@ window.onload = function() {
                 debug: false,
             }
         },
+        scale: {
+            mode: Phaser.Scale.FIT,
+            autoCenter: Phaser.Scale.CENTER_BOTH
+        },
         
         backgroundColor: "ed1c24",
         scene: [Cena01, Cena02]

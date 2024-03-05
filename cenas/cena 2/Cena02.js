@@ -140,8 +140,6 @@ class Cena02 extends Phaser.Scene {
 
         if (player.body.velocity.y > 0) isJumping = false
 
-        console.log(player.body.velocity.y)
-
         //adicionando a lógica para permitir que o jogador pule usando a seta para cima.
         if (teclado.up.isDown) {
             if (!isJumping) {
